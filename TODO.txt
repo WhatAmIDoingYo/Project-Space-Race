@@ -1,0 +1,136 @@
+Slide 3: Executive Summary
+Missing: Summary of methodologies (data collection, wrangling, exploratory data analysis [EDA], interactive visual analytics, predictive analysis).
+Missing: Summary of results (EDA, interactive analytics, predictive analysis).
+Slide 4: Introduction
+Missing: Project background and context (e.g., the commercial space age, SpaceX's achievements, SpaceY's goal to compete with SpaceX).
+Slide 6: Methodology
+Missing: Description of data collection methodology.
+Missing: Description of data wrangling process.
+Missing: Description of EDA using visualization and SQL.
+Missing: Description of interactive visual analytics using Folium and Plotly Dash.
+Missing: Description of predictive analysis using classification models.
+Slide 7: Data Collection
+Missing: Description of how datasets were collected.
+Slide 8: Data Collection - SpaceX API
+Missing: Flowchart of SpaceX API calls.
+Slide 9: Data Collection - Scraping
+Missing: Flowchart of web scraping process.
+Slide 10: Data Wrangling
+Missing: Description of how data were processed.
+Slide 11: EDA with Data Visualization
+Missing: Summary of charts plotted and reasons for their use.
+Slide 12: EDA with SQL
+Missing: Summary of SQL queries performed.
+Slide 13: Build an Interactive Map with Folium
+Missing: Summary of map objects (e.g., markers, circles, lines) created and reasons for adding them.
+Slide 14: Build a Dashboard with Plotly Dash
+Missing: Summary of plots/graphs and interactions added to the dashboard.
+Slide 15: Predictive Analysis (Classification)
+Missing: Summary of how the classification model was built, evaluated, improved, and how the best-performing model was identified.
+Slide 16: Results
+Missing: EDA results.
+Missing: Interactive analytics demo screenshots.
+Missing: Predictive analysis results.
+Slide 17: Section 2 - Insights Drawn from EDA
+Missing: Insights derived from EDA.
+Slide 18: Flight Number vs. Launch Site
+Missing: Scatter plot screenshot and explanations.
+Slide 19: Payload vs. Launch Site
+Missing: Scatter plot screenshot and explanations.
+Slide 20: Success Rate vs. Orbit Type
+Missing: Bar chart screenshot and explanations.
+Slide 21: Flight Number vs. Orbit Type
+Missing: Scatter plot screenshot and explanations.
+Slide 22: Payload vs. Orbit Type
+Missing: Scatter plot screenshot and explanations.
+Slide 23: Launch Success Yearly Trend
+Missing: Line chart screenshot and explanations.
+Slide 24: All Launch Site Names
+Missing: Query result and explanation.
+Slide 25: Launch Site Names Begin with 'CCA'
+Missing: Query result and explanation.
+Slide 26: Total Payload Mass
+Missing: Query result and explanation.
+Slide 27: Average Payload Mass by F9 v1.1
+Missing: Query result and explanation.
+Slide 28: First Successful Ground Landing Date
+Missing: Query result and explanation.
+Slide 29: Successful Drone Ship Landing with Payload between 4000 and 6000
+Missing: Query result and explanation.
+Slide 30: Total Number of Successful and Failure Mission Outcomes
+Missing: Query result and explanation.
+Slide 31: Boosters Carried Maximum Payload
+Missing: Query result and explanation.
+Slide 32: 2015 Launch Records
+Missing: Query result and explanation.
+
+Slide 34: Section 3 - Launch Sites Proximities Analysis
+Missing: Analysis of launch site proximities.
+
+Slide 38: Section 4 - Build a Dashboard with Plotly Dash
+Missing: Dashboard details.
+Slide 39: <Dashboard Screenshot 1>
+Missing: Screenshot and explanation.
+Slide 40: <Dashboard Screenshot 2>
+Missing: Screenshot and explanation.
+Slide 41: <Dashboard Screenshot 3>
+Missing: Screenshot and explanation.
+Slide 42: Section 5 - Predictive Analysis (Classification)
+Missing: Analysis of classification models.
+
+Slide 46: Appendix
+Missing: Relevant assets (e.g., Python code snippets, SQL queries, charts, notebook outputs, datasets).
+Missing Images and Charts
+Slide 18: Flight Number vs. Launch Site
+Missing: Scatter plot screenshot.
+Slide 19: Payload vs. Launch Site
+Missing: Scatter plot screenshot.
+Slide 20: Success Rate vs. Orbit Type
+Missing: Bar chart screenshot.
+Slide 21: Flight Number vs. Orbit Type
+Missing: Scatter plot screenshot.
+Slide 22: Payload vs. Orbit Type
+Missing: Scatter plot screenshot.
+Slide 23: Launch Success Yearly Trend
+Missing: Line chart screenshot.
+
+Slide 39: <Dashboard Screenshot 1>
+Missing: Screenshot of Plotly Dash dashboard.
+Slide 40: <Dashboard Screenshot 2>
+Missing: Screenshot of Plotly Dash dashboard.
+Slide 41: <Dashboard Screenshot 3>
+Missing: Screenshot of Plotly Dash dashboard.
+
+Other Missing Information
+GitHub URLs for the following completed notebooks:
+SpaceX API calls
+Web scraping
+Data wrangling
+EDA with data visualization
+EDA with SQL
+Interactive map with Folium
+Plotly Dash lab
+Predictive analysis lab
+Flowcharts:
+Data collection (SpaceX API)
+Data collection (web scraping)
+Summaries:
+Methodologies (data collection, wrangling, EDA, interactive visual analytics, predictive analysis)
+Results (EDA, interactive analytics, predictive analysis)
+Insights: Insights drawn from EDA.
+Query Results and Explanations for SQL queries:
+All launch site names
+Launch site names beginning with 'CCA'
+Total payload mass
+Average payload mass for F9 v1.1
+First successful ground landing date
+Successful drone ship landings with payload between 4000 and 6000 kg
+Total number of successful and failure mission outcomes
+Boosters that carried the maximum payload
+2015 launch records (failed drone ship landings)
+Ranked landing outcomes between 2010-06-04 and 2017-03-20
+Analysis:
+Launch sites proximities
+Predictive analysis (classification)
+Conclusions: Key conclusions from the project.
+Relevant Assets for the appendix (e.g., code snippets, SQL queries, charts, notebook outputs, datasets).
