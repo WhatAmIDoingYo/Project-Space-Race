@@ -1,136 +1,166 @@
-Slide 3: Executive Summary
-Missing: Summary of methodologies (data collection, wrangling, exploratory data analysis [EDA], interactive visual analytics, predictive analysis).
-Missing: Summary of results (EDA, interactive analytics, predictive analysis).
-Slide 4: Introduction
-Missing: Project background and context (e.g., the commercial space age, SpaceX's achievements, SpaceY's goal to compete with SpaceX).
-Slide 6: Methodology
-Missing: Description of data collection methodology.
-Missing: Description of data wrangling process.
-Missing: Description of EDA using visualization and SQL.
-Missing: Description of interactive visual analytics using Folium and Plotly Dash.
-Missing: Description of predictive analysis using classification models.
-Slide 7: Data Collection
-Missing: Description of how datasets were collected.
-Slide 8: Data Collection - SpaceX API
-Missing: Flowchart of SpaceX API calls.
-Slide 9: Data Collection - Scraping
-Missing: Flowchart of web scraping process.
-Slide 10: Data Wrangling
-Missing: Description of how data were processed.
-Slide 11: EDA with Data Visualization
-Missing: Summary of charts plotted and reasons for their use.
-Slide 12: EDA with SQL
-Missing: Summary of SQL queries performed.
-Slide 13: Build an Interactive Map with Folium
-Missing: Summary of map objects (e.g., markers, circles, lines) created and reasons for adding them.
-Slide 14: Build a Dashboard with Plotly Dash
-Missing: Summary of plots/graphs and interactions added to the dashboard.
-Slide 15: Predictive Analysis (Classification)
-Missing: Summary of how the classification model was built, evaluated, improved, and how the best-performing model was identified.
-Slide 16: Results
-Missing: EDA results.
-Missing: Interactive analytics demo screenshots.
-Missing: Predictive analysis results.
-Slide 17: Section 2 - Insights Drawn from EDA
-Missing: Insights derived from EDA.
-Slide 18: Flight Number vs. Launch Site
-Missing: Scatter plot screenshot and explanations.
-Slide 19: Payload vs. Launch Site
-Missing: Scatter plot screenshot and explanations.
-Slide 20: Success Rate vs. Orbit Type
-Missing: Bar chart screenshot and explanations.
-Slide 21: Flight Number vs. Orbit Type
-Missing: Scatter plot screenshot and explanations.
-Slide 22: Payload vs. Orbit Type
-Missing: Scatter plot screenshot and explanations.
-Slide 23: Launch Success Yearly Trend
-Missing: Line chart screenshot and explanations.
-Slide 24: All Launch Site Names
-Missing: Query result and explanation.
-Slide 25: Launch Site Names Begin with 'CCA'
-Missing: Query result and explanation.
-Slide 26: Total Payload Mass
-Missing: Query result and explanation.
-Slide 27: Average Payload Mass by F9 v1.1
-Missing: Query result and explanation.
-Slide 28: First Successful Ground Landing Date
-Missing: Query result and explanation.
-Slide 29: Successful Drone Ship Landing with Payload between 4000 and 6000
-Missing: Query result and explanation.
-Slide 30: Total Number of Successful and Failure Mission Outcomes
-Missing: Query result and explanation.
-Slide 31: Boosters Carried Maximum Payload
-Missing: Query result and explanation.
-Slide 32: 2015 Launch Records
-Missing: Query result and explanation.
+Updated Todo List
 
-Slide 34: Section 3 - Launch Sites Proximities Analysis
-Missing: Analysis of launch site proximities.
 
-Slide 38: Section 4 - Build a Dashboard with Plotly Dash
-Missing: Dashboard details.
-Slide 39: <Dashboard Screenshot 1>
-Missing: Screenshot and explanation.
-Slide 40: <Dashboard Screenshot 2>
-Missing: Screenshot and explanation.
-Slide 41: <Dashboard Screenshot 3>
-Missing: Screenshot and explanation.
-Slide 42: Section 5 - Predictive Analysis (Classification)
-Missing: Analysis of classification models.
+Complete the Executive Summary (Slide 3)
 
-Slide 46: Appendix
-Missing: Relevant assets (e.g., Python code snippets, SQL queries, charts, notebook outputs, datasets).
-Missing Images and Charts
-Slide 18: Flight Number vs. Launch Site
-Missing: Scatter plot screenshot.
-Slide 19: Payload vs. Launch Site
-Missing: Scatter plot screenshot.
-Slide 20: Success Rate vs. Orbit Type
-Missing: Bar chart screenshot.
-Slide 21: Flight Number vs. Orbit Type
-Missing: Scatter plot screenshot.
-Slide 22: Payload vs. Orbit Type
-Missing: Scatter plot screenshot.
-Slide 23: Launch Success Yearly Trend
-Missing: Line chart screenshot.
 
-Slide 39: <Dashboard Screenshot 1>
-Missing: Screenshot of Plotly Dash dashboard.
-Slide 40: <Dashboard Screenshot 2>
-Missing: Screenshot of Plotly Dash dashboard.
-Slide 41: <Dashboard Screenshot 3>
-Missing: Screenshot of Plotly Dash dashboard.
 
-Other Missing Information
-GitHub URLs for the following completed notebooks:
-SpaceX API calls
-Web scraping
+
+
+Add a summary of methodologies, including:
+
+Data collection (SpaceX API and web scraping)
+
 Data wrangling
+
+Exploratory data analysis (EDA) using visualization and SQL
+
+Interactive visual analytics using Folium and Plotly Dash
+
+Predictive analysis using classification models
+
+Add a summary of all key results from EDA, interactive analytics, and predictive analysis.
+
+
+
+Describe the Data Collection Methodology (Slide 6)
+
+Provide an overview of how data was collected, including the use of SpaceX API and web scraping.
+
+
+Include a Description of the Data Wrangling Process (Slide 6)
+
+Explain how the collected data was processed and cleaned for analysis.
+
+
+
+Summarize the EDA Using Visualization and SQL (Slide 6)
+
+Describe the key visualizations and SQL queries used to explore the data.
+
+
+
+Explain the Interactive Visual Analytics Using Folium and Plotly Dash (Slide 6)
+
+Summarize the interactive maps and dashboards created, including the tools used (Folium and Plotly Dash).
+
+
+Detail the Predictive Analysis Using Classification Models (Slide 6)
+
+Describe how classification models were built, tuned, and evaluated to predict first stage landing success.
+
+
+Add Summaries, Query Results, Explanations, and Screenshots for the Results Section
+
+
+Focus on the following slides (excluding the completed slides 35, 36, 37, 43, 44, and 45):
+
+Slide 18: Flight Number vs. Launch Site
+
+Slide 19: Payload vs. Launch Site
+
+Slide 20: Success Rate vs. Orbit Type
+
+Slide 21: Flight Number vs. Orbit Type
+
+Slide 22: Payload vs. Orbit Type
+
+Slide 23: Launch Success Yearly Trend
+
+Slide 24: All Launch Site Names
+
+Slide 25: Launch Site Names Begin with 'CCA'
+
+Slide 26: Total Payload Mass
+
+Slide 27: Average Payload Mass by F9 v1.1
+
+Slide 28: First Successful Ground Landing Date
+
+Slide 29: Successful Drone Ship Landing with Payload between 4000 and 6000
+
+Slide 30: Total Number of Successful and Failure Mission Outcomes
+
+Slide 31: Boosters Carried Maximum Payload
+
+Slide 32: 2015 Launch Records
+
+Slide 33: Rank Landing Outcomes Between 2010-06-04 and 2017-03-20
+
+Slide 39: <Dashboard Screenshot 1>
+
+Slide 40: <Dashboard Screenshot 2>
+
+Slide 41: <Dashboard Screenshot 3>
+
+
+For each slide, include:
+
+A brief explanation of the key message
+
+Relevant query results or data points
+
+Screenshots of visualizations (where applicable)
+
+
+Include GitHub URLs for All Completed Notebooks
+
+
+Add links to the following notebooks as external references:
+
+SpaceX API calls
+
+Web scraping
+
+Data wrangling
+
 EDA with data visualization
+
 EDA with SQL
+
 Interactive map with Folium
+
 Plotly Dash lab
+
 Predictive analysis lab
-Flowcharts:
-Data collection (SpaceX API)
-Data collection (web scraping)
-Summaries:
-Methodologies (data collection, wrangling, EDA, interactive visual analytics, predictive analysis)
-Results (EDA, interactive analytics, predictive analysis)
-Insights: Insights drawn from EDA.
-Query Results and Explanations for SQL queries:
-All launch site names
-Launch site names beginning with 'CCA'
-Total payload mass
-Average payload mass for F9 v1.1
-First successful ground landing date
-Successful drone ship landings with payload between 4000 and 6000 kg
-Total number of successful and failure mission outcomes
-Boosters that carried the maximum payload
-2015 launch records (failed drone ship landings)
-Ranked landing outcomes between 2010-06-04 and 2017-03-20
-Analysis:
-Launch sites proximities
-Predictive analysis (classification)
-Conclusions: Key conclusions from the project.
-Relevant Assets for the appendix (e.g., code snippets, SQL queries, charts, notebook outputs, datasets).
+
+
+
+Add Flowcharts for Data Collection Processes
+
+
+Include flowcharts for:
+
+SpaceX API calls (Slide 8)
+
+Web scraping (Slide 9)
+
+
+
+Derive and Present Insights from EDA (Slide 17)
+
+Summarize key insights drawn from the exploratory data analysis.
+
+
+
+Conduct and Present Analyses for Launch Site Proximities and Predictive Modeling
+
+For launch site proximities (Slide 34), provide an analysis of the distances to key infrastructure (e.g., cities, railways, highways, coastlines).
+
+For predictive modeling (Slide 42), summarize the process of building, evaluating, and selecting the best classification model.
+
+
+
+Compile Relevant Assets for the Appendix (Slide 46)
+
+Include Python code snippets, SQL queries, charts, notebook outputs, or datasets created during the project.
+
+
+
+Summary of Completed Tasks (Removed from Todo List)
+
+Slides 35, 36, 37 (Folium map screenshots and explanations)
+
+Slides 43, 44 (Classification accuracy and confusion matrix)
+
+Slide 45 (Conclusions)
