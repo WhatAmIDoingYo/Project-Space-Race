@@ -1,0 +1,18 @@
+Logistic Regression - Best parameters: {'C': 0.01, 'penalty': 'l2', 'solver': 'lbfgs'}
+Logistic Regression - Best score: 0.8464285714285713
+Logistic Regression - Test Accuracy: 0.8333333333333334
+
+SVM - Best parameters: {'C': 1.0, 'gamma': 0.03162277660168379, 'kernel': 'sigmoid'}
+SVM - Best score: 0.8482142857142856
+SVM - Test Accuracy: 0.8333333333333334
+
+Decision Tree - Best parameters: {'criterion': 'gini', 'max_depth': 16, 'max_features': 'sqrt', 'min_samples_leaf': 1, 'min_samples_split': 10, 'splitter': 'random'}
+Decision Tree - Best score: 0.8875000000000002
+Decision Tree - Test Accuracy: 0.7222222222222222
+
+KNN - Best parameters: {'algorithm': 'auto', 'n_neighbors': 10, 'p': 1}
+KNN - Best score: 0.8482142857142858
+KNN - Test Accuracy: 0.8333333333333334
+
+Test Accuracies: {'Logistic Regression': 0.8333333333333334, 'SVM': 0.8333333333333334, 'Decision Tree': 0.7222222222222222, 'KNN': 0.8333333333333334}
+Best performing method: Logistic Regression with accuracy: 0.8333333333333334

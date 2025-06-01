@@ -1,0 +1,7 @@
+Distances from CCAFS SLC-40 to proximities:
+City (Cape Canaveral): 18.16 KM
+Railway: 1.28 KM
+Highway: 0.58 KM
+Coastline: 0.51 KM
+
+

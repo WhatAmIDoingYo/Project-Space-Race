@@ -18,13 +18,13 @@ con.commit()
 # Task 1: Display unique launch sites
 cur.execute('SELECT DISTINCT "Launch_Site" FROM SPACEXTABLE;')
 print("Task 1 - Unique Launch Sites:")
-table = prettytable.from_cursor(cur)
+table = prettytable.from_db_cursor(cur)
 print(table)
 
 # Task 2: Display 5 records where launch sites begin with 'CCA'
 cur.execute('SELECT * FROM SPACEXTABLE WHERE "Launch_Site" LIKE "CCA%" LIMIT 5;')
 print("\nTask 2 - Records with Launch Sites starting with 'CCA':")
-table = prettytable.from_cursor(cur)
+table = prettytable.from_db_cursor(cur)
 print(table)
 
 # Task 3: Total payload mass by NASA (CRS)
@@ -48,31 +48,31 @@ print(row[0])
 # Task 6: Boosters with success on drone ship and payload mass 4000-6000 kg
 cur.execute('SELECT "Booster_Version" FROM SPACEXTABLE WHERE "Landing_Outcome" = "Success (drone ship)" AND "PAYLOAD_MASS__KG_" > 4000 AND "PAYLOAD_MASS__KG_" < 6000;')
 print("\nTask 6 - Boosters with Successful Drone Ship Landing and Payload Mass 4000-6000 kg:")
-table = prettytable.from_cursor(cur)
+table = prettytable.from_db_cursor(cur)
 print(table)
 
 # Task 7: Count of successful and failed mission outcomes
 cur.execute('SELECT "Mission_Outcome", COUNT(*) as count FROM SPACEXTABLE GROUP BY "Mission_Outcome";')
 print("\nTask 7 - Mission Outcome Counts:")
-table = prettytable.from_cursor(cur)
+table = prettytable.from_db_cursor(cur)
 print(table)
 
 # Task 8: Booster versions with maximum payload mass
 cur.execute('SELECT "Booster_Version" FROM SPACEXTABLE WHERE "PAYLOAD_MASS__KG_" = (SELECT MAX("PAYLOAD_MASS__KG_") FROM SPACEXTABLE);')
 print("\nTask 8 - Booster Versions with Maximum Payload Mass:")
-table = prettytable.from_cursor(cur)
+table = prettytable.from_db_cursor(cur)
 print(table)
 
 # Task 9: 2015 records with drone ship failure
 cur.execute('SELECT substr("Date", 6, 2) as month, "Landing_Outcome", "Booster_Version", "Launch_Site" FROM SPACEXTABLE WHERE substr("Date", 0, 5) = "2015" AND "Landing_Outcome" LIKE "Failure (drone ship)";')
 print("\nTask 9 - 2015 Drone Ship Failure Records:")
-table = prettytable.from_cursor(cur)
+table = prettytable.from_db_cursor(cur)
 print(table)
 
 # Task 10: Landing outcome counts between 2010-06-04 and 2017-03-20
 cur.execute('SELECT "Landing_Outcome", COUNT(*) as count FROM SPACEXTABLE WHERE "Date" BETWEEN "2010-06-04" AND "2017-03-20" GROUP BY "Landing_Outcome" ORDER BY count DESC;')
 print("\nTask 10 - Landing Outcome Counts (2010-06-04 to 2017-03-20):")
-table = prettytable.from_cursor(cur)
+table = prettytable.from_db_cursor(cur)
 print(table)
 
 # Close the database connection

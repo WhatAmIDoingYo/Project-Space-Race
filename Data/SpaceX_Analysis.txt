@@ -1,0 +1,101 @@
+names of the unique launch sites
+('CCAFS LC-40',)
+('VAFB SLC-4E',)
+('KSC LC-39A',)
+('CCAFS SLC-40',)
+
+Records with Launch Sites starting with 'CCA':
+('2010-06-04', '18:45:00', 'F9 v1.0  B0003', 'CCAFS LC-40', 'Dragon Spacecraft Qualification Unit', 0, 'LEO', 'SpaceX', 'Success', 'Failure (parachute)')
+('2010-12-08', '15:43:00', 'F9 v1.0  B0004', 'CCAFS LC-40', 'Dragon demo flight C1, two CubeSats, barrel of Brouere cheese', 0, 'LEO (ISS)', 'NASA (COTS) NRO', 'Success', 'Failure (parachute)')
+('2012-05-22', '7:44:00', 'F9 v1.0  B0005', 'CCAFS LC-40', 'Dragon demo flight C2', 525, 'LEO (ISS)', 'NASA (COTS)', 'Success', 'No attempt')
+('2012-10-08', '0:35:00', 'F9 v1.0  B0006', 'CCAFS LC-40', 'SpaceX CRS-1', 500, 'LEO (ISS)', 'NASA (CRS)', 'Success', 'No attempt')
+('2013-03-01', '15:10:00', 'F9 v1.0  B0007', 'CCAFS LC-40', 'SpaceX CRS-2', 677, 'LEO (ISS)', 'NASA (CRS)', 'Success', 'No attempt')
+
+Total Payload Mass for SpaceX (CRS):
+48213
+
+Average Payload Mass for F9 v1.1:
+2928.4
+
+First Successful Ground Pad Landing Date:
+2015-12-22
+
+Boosters with Successful Drone Ship Landing and Payload Mass 4000-6000 kg:
+('F9 FT B1022',)
+('F9 FT B1026',)
+('F9 FT  B1021.2',)
+('F9 FT  B1031.2',)
+
+Mission Outcome Counts:
+('Failure (in flight)', 1)
+('Success', 98)
+('Success ', 1)
+('Success (payload status unclear)', 1)
+
+Booster Versions with Maximum Payload Mass:
+('F9 B5 B1048.4',)
+('F9 B5 B1049.4',)
+('F9 B5 B1051.3',)
+('F9 B5 B1056.4',)
+('F9 B5 B1048.5',)
+('F9 B5 B1051.4',)
+('F9 B5 B1049.5',)
+('F9 B5 B1060.2 ',)
+('F9 B5 B1058.3 ',)
+('F9 B5 B1051.6',)
+('F9 B5 B1060.3',)
+('F9 B5 B1049.7 ',)
+
+Task 9 - 2015 Drone Ship Failure Records:
+('01', 'Failure (drone ship)', 'F9 v1.1 B1012', 'CCAFS LC-40')
+('04', 'Failure (drone ship)', 'F9 v1.1 B1015', 'CCAFS LC-40')
+
+Task 10 - Landing Outcome Counts (2010-06-04 to 2017-03-20):
+('No attempt', 10)
+('Success (drone ship)', 5)
+('Failure (drone ship)', 5)
+('Success (ground pad)', 3)
+('Controlled (ocean)', 3)
+('Uncontrolled (ocean)', 2)
+('Failure (parachute)', 2)
+('Precluded (drone ship)', 1)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

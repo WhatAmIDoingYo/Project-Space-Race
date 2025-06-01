@@ -1,0 +1,37 @@
+LaunchSite
+CCAFS SLC 40    55
+KSC LC 39A      22
+VAFB SLC 4E     13
+Name: count, dtype: int64
+Orbit
+GTO      27
+ISS      21
+VLEO     14
+PO        9
+LEO       7
+SSO       5
+MEO       3
+ES-L1     1
+HEO       1
+SO        1
+GEO       1
+Name: count, dtype: int64
+Outcome
+True ASDS      41
+None None      19
+True RTLS      14
+False ASDS      6
+True Ocean      5
+False Ocean     2
+None ASDS       2
+False RTLS      1
+Name: count, dtype: int64
+0 True ASDS
+1 None None
+2 True RTLS
+3 False ASDS
+4 True Ocean
+5 False Ocean
+6 None ASDS
+7 False RTLS
+[0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 1, 1, 1, 1, 0, 1, 1, 0, 1, 1, 0, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 0, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
