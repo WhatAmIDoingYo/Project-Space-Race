@@ -7,7 +7,7 @@ con = sqlite3.connect("my_data1.db")
 cur = con.cursor()
 
 # Load SpaceX dataset into the database
-df = pd.read_csv("https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-DS0321EN-SkillsNetwork/labs/module_2/data/Spacex.csv")
+df = pd.read_csv("Spacex.csv")
 df.to_sql("SPACEXTBL", con, if_exists='replace', index=False, method="multi")
 
 # Create a clean table without blank rows

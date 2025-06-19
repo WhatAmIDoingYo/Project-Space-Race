@@ -120,9 +120,6 @@ plot_success_rate_vs_orbit()
 plot_flight_number_vs_orbit()
 plot_payload_vs_orbit()
 plot_yearly_success_trend()
-plot_launch_success_count()
-plot_highest_success_ratio()
-plot_payload_vs_launch_outcome()
 
 # Close the database connection
 con.close()
