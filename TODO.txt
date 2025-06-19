@@ -55,43 +55,7 @@ Add Summaries, Query Results, Explanations, and Screenshots for the Results Sect
 
 Focus on the following slides (excluding the completed slides 35, 36, 37, 43, 44, and 45):
 
-Slide 18: Flight Number vs. Launch Site
 
-Slide 19: Payload vs. Launch Site
-
-Slide 20: Success Rate vs. Orbit Type
-
-Slide 21: Flight Number vs. Orbit Type
-
-Slide 22: Payload vs. Orbit Type
-
-Slide 23: Launch Success Yearly Trend
-
-Slide 24: All Launch Site Names
-
-Slide 25: Launch Site Names Begin with 'CCA'
-
-Slide 26: Total Payload Mass
-
-Slide 27: Average Payload Mass by F9 v1.1
-
-Slide 28: First Successful Ground Landing Date
-
-Slide 29: Successful Drone Ship Landing with Payload between 4000 and 6000
-
-Slide 30: Total Number of Successful and Failure Mission Outcomes
-
-Slide 31: Boosters Carried Maximum Payload
-
-Slide 32: 2015 Launch Records
-
-Slide 33: Rank Landing Outcomes Between 2010-06-04 and 2017-03-20
-
-Slide 39: <Dashboard Screenshot 1>
-
-Slide 40: <Dashboard Screenshot 2>
-
-Slide 41: <Dashboard Screenshot 3>
 
 
 For each slide, include:
@@ -100,34 +64,7 @@ A brief explanation of the key message
 
 Relevant query results or data points
 
-Screenshots of visualizations (where applicable)
-
-
-Include GitHub URLs for All Completed Notebooks
-
-
-Add links to the following notebooks as external references:
-
-SpaceX API calls
-
-Web scraping
-
-Data wrangling
-
-EDA with data visualization
-
-EDA with SQL
-
-Interactive map with Folium
-
-Plotly Dash lab
-
-Predictive analysis lab
-
-
-
 Add Flowcharts for Data Collection Processes
-
 
 Include flowcharts for:
 
@@ -145,22 +82,7 @@ Summarize key insights drawn from the exploratory data analysis.
 
 Conduct and Present Analyses for Launch Site Proximities and Predictive Modeling
 
-For launch site proximities (Slide 34), provide an analysis of the distances to key infrastructure (e.g., cities, railways, highways, coastlines).
 
-For predictive modeling (Slide 42), summarize the process of building, evaluating, and selecting the best classification model.
-
-
-
-Compile Relevant Assets for the Appendix (Slide 46)
 
 Include Python code snippets, SQL queries, charts, notebook outputs, or datasets created during the project.
 
-
-
-Summary of Completed Tasks (Removed from Todo List)
-
-Slides 35, 36, 37 (Folium map screenshots and explanations)
-
-Slides 43, 44 (Classification accuracy and confusion matrix)
-
-Slide 45 (Conclusions)
